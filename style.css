@@ -55,10 +55,27 @@ body{
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
-
 }
 .banner-img img{
     width: 100%;
+}
+.teams{
+    display: flex;
+    padding: 6rem;
+    align-items: center;
+    gap: 3rem;
+}
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    width: 50%;
+}
+.teams-img img{
+    width: 100%;
+}
+.teams-content{
+width: 50%;
 }
 
 
